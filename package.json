@@ -1,0 +1,9 @@
+{
+  "name": "CrazyStrongString",
+  "version": "1.0.0",
+  "description": "if you need a random strong key for your stuff...",
+  "main": "index.js",
+  "repository": "git@github.com:Farid212/CrazyStrongString.git",
+  "author": "Farid Hammouten",
+  "license": "MIT"
+}
