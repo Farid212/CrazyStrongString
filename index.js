@@ -15,7 +15,7 @@ function generateSecretKey(length) {
 }
 
 // Ask the user for the desired key length
-rl.question('Enter the desired key length (between 32 and 1024): ', (answer) => {
+rl.question('Enter the desired key length (only even number between 32 and 1024): ', (answer) => {
   const keyLength = parseInt(answer, 10);
   
   if (isNaN(keyLength) || keyLength < 32 || keyLength > 1024) {
